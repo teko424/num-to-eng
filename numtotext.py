@@ -42,4 +42,4 @@ if __name__ == "__main__":
             else:
                 print("the number must be between 0-999")
         except ValueError:
-            print("please type a number, nothing else")
+            print("please type only a number, nothing else")
