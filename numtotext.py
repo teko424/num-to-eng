@@ -25,11 +25,11 @@ def num_to_eng(n):
     elif len(str(n)) == 3:
         if str(n)[1] == "0":
             if str(n)[2] != "0":
-                print(nums[int(str(n)[0])] + " hundred", nums[int(str(n)[2])])
+                print(nums[int(str(n)[0])], "hundred", nums[int(str(n)[2])])
             else:
-                print(nums[int(str(n)[0])] + " hundred")
+                print(nums[int(str(n)[0])], "hundred")
         else:
-            print(nums[int(str(n)[0])] + " hundred", two_digits(int(str(n)[-2:])))
+            print(nums[int(str(n)[0])], "hundred", two_digits(int(str(n)[-2:])))
 
 
 if __name__ == "__main__":
