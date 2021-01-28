@@ -16,7 +16,6 @@ def two_digits(n):
 
 
 def num_to_eng(n):
-    onedigit = 0
     nums = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
     if len(str(n)) == 1:
         print(nums[n])
